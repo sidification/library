@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table>
+    <div class="container">
+        <h1>My Library</h1>
+        <div class="book-shelf">
+            <table></table>
+            <button class="btn">New Book</button>
+        
+            <forms id="new-book" action="url-where-data-will-go" method="post">
 
-    </table>
+                <!-- input tag for form entries -->
+                <label for='date'>Date</label>
+                <input type="date" id='date' name="entry-date">
+
+                    <!-- input tag for form entries -->
+                <label for='title'>Title</label>
+                <input type="text" id='title' name="title">
+
+                <label for='author'>Author</label>
+                <input type="text" id='author' name="author">
+
+                <label for='read'>Read(Y/N)</label>
+                <input type="text" id='read' name="read">
+
+                <button type='submit' class="btn">Submit</button>
+
+            </forms>
+        </div>
+        
+        
+    </div>
     
 </body>
 <script src="index.js" defer></script>

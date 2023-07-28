@@ -1,0 +1,17 @@
+body {
+    height: 80vh;
+}
+
+.container{
+    display: grid;
+    height: inherit;
+    grid-template-rows: minmax(40px, auto) 2fr 0.5fr;
+    grid-template-columns: repeat(5, minmax(20px, 1fr));
+}
+
+h1{
+    grid-area: 1/1/2/6;
+}
+
+
+
