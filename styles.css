@@ -9,9 +9,15 @@ body {
     grid-template-columns: repeat(5, minmax(20px, 1fr));
 }
 
-h1{
+div.container > h1{
     grid-area: 1/1/2/6;
+    text-align: center;
 }
 
+.single-book {
+    border: 1px solid blue;
+    padding: 2px;
+    text-align: center;
+}
 
 
